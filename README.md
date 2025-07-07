@@ -28,7 +28,24 @@ Esercizio:
 
 2 ?se vuole fare l'esercizio del palindromo, allora
 
-2.1 chiediamo all'utente di inserire una parola per vedere se è palindroma
+2.1 chiediamo all'utente di inserire una parola per vedere se è palindroma (vengono inoltre inseriti 2 valori di controllo, 1 is_palindromo (per controllare con un valore booleano se è palindromo) e il 2 destra_sinistra(valore che controllerà le parole in palindromo da destra a sinistra))
+
+2.2 creiamo un ciclo for per controllare la stringa, e vedere se è palindroma (il valore del contatore si chiama sinistra_destra, poichè ci servirà per controllare le parole da sinistra a destra)
+
+  <!--FOR-->
+
+  2.2.1 ? se la lettera nella posizione sinistra_destra è 
+  uguale alla lettara nella posizione destra_sinistra, allora
+
+    2.2.1.1 decrementiamo destra_sinistra (in modo tale da 
+    controllare la parola che ci sta prima)
+
+  2.2.2 altrimenti
+
+    2.2.2.1 la parola non è palindroma, settiamo la variabile 
+    booleana is_palindromo false
+
+  <!--FINE FOR-->
 
 3 altrimenti
 
