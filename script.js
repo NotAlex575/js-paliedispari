@@ -24,9 +24,19 @@ if (scelta_esercizio == 1){
 }
 //se la scelta_esercizio ha valore 2, allora eseguiamo la 2 traccia
 else if (scelta_esercizio == 2){
-    const pari_o_dispari = prompt("scegli tra pari o dispari");
+    let pari_o_dispari = prompt("scegli tra pari o dispari");
+    pari_o_dispari = pari_o_dispari.toLowerCase();
+    console.log(pari_o_dispari);
     if(pari_o_dispari == "pari" || pari_o_dispari == "dispari"){
         const dado = Math.floor((Math.random()*6 ) + 1)
+        if(pari_o_dispari == "pari" && dado % 2 == 0 || pari_o_dispari == "dispari" && dado % 2 != 0){
+            console.log(`L'utente ha vinto!\nHa scelto ${pari_o_dispari} ed è uscito ${dado}`)
+        }
+        else{
+            console.log(`L'utente ha parso!\nHa scelto ${pari_o_dispari} ed è uscito ${dado}`)
+        }
     }
-
+    else{
+        console.log("valore inserito non riconosciuto....")
+    }
 }

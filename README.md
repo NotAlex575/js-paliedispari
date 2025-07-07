@@ -65,3 +65,17 @@ Esercizio:
 3.2 ?se il valore di pari_o_dispari inserito è "pari" o "dispari, allora"
 
 3.2.1 creiamo dentro la variabile "dado" un valore randomico tra 1 e 6
+
+3.2.2 ?se il valore in pari_o_dispari è pari && dado è divisibile per 2, oppure il valore pari_o_dispari è dispari && dado non è divisibile per 2, allora
+
+3.2.2.1 l'utente ha indovinato
+
+3.2.3 altrimenti
+
+3.2.3.1 l'utente non ha indovinato
+
+3.3 altrimenti
+
+3.3.1 indichiamo che l'utente non ha scelto ne pari, ne dispari quindi non può giocare
+
+FINE
