@@ -1,73 +1,36 @@
-<h1 align="center">Js Paliedispari</h1>
+Esercizio di oggi:
+nome repo: js-paliedispari
 
-<p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/{{YOUR_GITHUB_USERNAME}}/js-paliedispari?color=56BEB8">
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/{{YOUR_GITHUB_USERNAME}}/js-paliedispari?color=56BEB8">
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/{{YOUR_GITHUB_USERNAME}}/js-paliedispari?color=56BEB8">
-  <img alt="License" src="https://img.shields.io/github/license/{{YOUR_GITHUB_USERNAME}}/js-paliedispari?color=56BEB8">
-</p>
+Palidroma
+Chiedere all’utente di inserire una parola
+Creare una funzione per capire se la parola inserita è palindroma
 
-<p align="center">
-  <a href="#dart-about">About</a> &#xa0; | &#xa0; 
-  <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
-  <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
-  <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
-  <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
-  <a href="#memo-license">License</a> &#xa0; | &#xa0;
-  <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">Author</a>
-</p>
+Pari e Dispari
+L’utente sceglie pari o dispari e inserisce un numero da 1 a 5.
+Generiamo un numero random (sempre da 1 a 5) per il computer (usando una funzione).
+Sommiamo i due numeri
+Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
+Dichiariamo chi ha vinto.
 
-<br>
+Consigli del giorno
+Scriviamo sempre in italiano i passaggi che vogliamo fare,
+Scriviamo sempre solo un pezzetto di codice alla volta, se funziona allora andiamo avanti.,
 
-## :dart: About ##
+Domande da  farsi quando si crea una funzione:
+Come dovrebbe chiamarsi?,
+Ho bisogno di parametri?,
+Devo restituire un valore?,
+Se sì, di che tipo?
 
-Describe your project
+Esercizio:
 
-## :sparkles: Features ##
+1 Siccome questo esercizio è composto da 2 tracce, facciamo prima scegliere all'utente quale esercizio fare: 2 mettiamo in input la scelta della traccia (1 -> esercizio palindromo, 2 -> esercizio pari e dispari, altro valore -> arresto dell'esecuzione del programma)
 
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
+2 ?se vuole fare l'esercizio del palindromo, allora
 
-## :rocket: Technologies ##
+2.1 chiediamo all'utente di inserire una parola per vedere se è palindroma
 
-The following tools were used in this project:
+3 altrimenti
 
-- [Expo](https://expo.io/)
-- [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
+3.1 chiediamo all'utente se vuole chiamare nel gioco se esce un valore pari o dispari
 
-## :white_check_mark: Requirements ##
-
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
-
-## :checkered_flag: Starting ##
-
-```bash
-# Clone this project
-$ git clone https://github.com/{{YOUR_GITHUB_USERNAME}}/js-paliedispari
-
-# Access
-$ cd js-paliedispari
-
-# Install dependencies
-$ yarn
-
-# Run the project
-$ yarn start
-
-# The server will initialize in the <http://localhost:3000>
-```
-
-## :memo: License ##
-
-This project is under license from MIT. For more details, see the [LICENSE](LICENSE) file.
-
-
-Made with :heart: by <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">{{YOUR_NAME}}</a>
-
-&#xa0;
-
-<a href="#top">Back to top</a>
