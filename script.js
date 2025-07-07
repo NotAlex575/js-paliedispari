@@ -33,7 +33,7 @@ else if (scelta_esercizio == 2){
             console.log(`L'utente ha vinto!\nHa scelto ${pari_o_dispari} ed è uscito ${dado}`)
         }
         else{
-            console.log(`L'utente ha parso!\nHa scelto ${pari_o_dispari} ed è uscito ${dado}`)
+            console.log(`L'utente ha perso!\nHa scelto ${pari_o_dispari} ed è uscito ${dado}`)
         }
     }
     else{
