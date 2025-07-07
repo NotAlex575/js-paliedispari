@@ -22,6 +22,9 @@ Ho bisogno di parametri?,
 Devo restituire un valore?,
 Se sì, di che tipo?
 
+
+___________________________________________________
+
 Esercizio:
 
 1 Siccome questo esercizio è composto da 2 tracce, facciamo prima scegliere all'utente quale esercizio fare: 2 mettiamo in input la scelta della traccia (1 -> esercizio palindromo, 2 -> esercizio pari e dispari, altro valore -> arresto dell'esecuzione del programma)
@@ -57,5 +60,8 @@ Esercizio:
 
 3 altrimenti
 
-3.1 chiediamo all'utente se vuole chiamare nel gioco se esce un valore pari o dispari
+3.1 chiediamo all'utente se vuole chiamare nel gioco se esce un valore pari o dispari (dove il valore verrà messo dentro pari_o_dispari)
 
+3.2 ?se il valore di pari_o_dispari inserito è "pari" o "dispari, allora"
+
+3.2.1 creiamo dentro la variabile "dado" un valore randomico tra 1 e 6

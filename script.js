@@ -22,7 +22,11 @@ if (scelta_esercizio == 1){
     }
 
 }
+//se la scelta_esercizio ha valore 2, allora eseguiamo la 2 traccia
 else if (scelta_esercizio == 2){
     const pari_o_dispari = prompt("scegli tra pari o dispari");
+    if(pari_o_dispari == "pari" || pari_o_dispari == "dispari"){
+        const dado = Math.floor((Math.random() *6)+1)
+    }
 
 }
