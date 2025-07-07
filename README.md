@@ -47,6 +47,14 @@ Esercizio:
 
   <!--FINE FOR-->
 
+2.3 ?se il valore is_palindromo è true, allora
+
+  2.3.1 la parola è palindroma
+
+2.4 altrimenti
+
+  2.4.1 la parola non è palindroma
+
 3 altrimenti
 
 3.1 chiediamo all'utente se vuole chiamare nel gioco se esce un valore pari o dispari
